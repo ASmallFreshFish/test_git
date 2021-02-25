@@ -194,6 +194,14 @@ void assert_failed(uint8_t* file, uint32_t line)
   {
   }
 }
+
+
+void fun3(void)
+{
+	printf("\r\n");
+}
+
+
 #endif
 
 
