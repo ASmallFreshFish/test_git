@@ -13,6 +13,7 @@
 const char version_number[]=VERSION_NUMBER;	
 
 main_data_type g_sta =PRESS_HANDLE_STA;
+//ÖÜ½¡ÎÄ
 
 int main(void)
 {		
