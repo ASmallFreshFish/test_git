@@ -15,6 +15,13 @@ const char version_number[]=VERSION_NUMBER;
 main_data_type g_sta =PRESS_HANDLE_STA;
 //周健文
 
+void fun1(void)
+{
+	printf("\r\n");
+}
+
+
+
 int main(void)
 {		
 	main_init();
@@ -122,6 +129,12 @@ void main_init(void)
 	IWDG_Init(5,0x0C4E);   //复位时间10.0s(6.7s-13.4s)
 
 }
+
+void fun2(void)
+{
+	printf("\r\n");
+}
+
 
 
 void old_main_init(void)
